@@ -1,9 +1,4 @@
 import { MongoClient } from "mongodb";
-import dotenv from "dotenv-safe";
-
-dotenv.config();
-
-const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
 
 async function handler(req, res) {
   if (req.method === "POST") {

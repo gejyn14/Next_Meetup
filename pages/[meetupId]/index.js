@@ -1,11 +1,6 @@
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 import { MongoClient, ObjectId } from "mongodb";
 import Head from "next/head";
-import dotenv from "dotenv-safe";
-
-dotenv.config();
-
-const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
 
 export default function MeetupDetails(props) {
   return (
